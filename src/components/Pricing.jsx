@@ -44,9 +44,9 @@ export default function Pricing() {
                                     Laporan Mingguan otomatis
                                 </li>
                             </ul>
-                            <button className="w-full py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
+                            <a href="http://lynk.id/achmadfzidev/gn9y1479kppl/checkout" target="_blank" rel="noopener noreferrer" className="block w-full text-center py-4 rounded-2xl border border-border-color text-foreground font-bold hover:bg-foreground hover:text-background transition-all duration-300">
                                 Mulai Sekarang
-                            </button>
+                            </a>
                         </div>
                     </ScrollReveal>
 
