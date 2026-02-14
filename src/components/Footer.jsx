@@ -56,7 +56,7 @@ export default function Footer() {
                 <div className="border-t border-border-color pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted">
                     <p>&copy; 2026 Dompetku AI. All rights reserved.</p>
                     <div className="flex gap-6">
-                        <span>Made with ❤️ in Jakarta</span>
+                        <span>Made with ❤️ in Malang</span>
                     </div>
                 </div>
             </div>
