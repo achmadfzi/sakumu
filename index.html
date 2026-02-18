@@ -13,82 +13,13 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
     rel="stylesheet" />
-  <!-- n8n Chat Styles -->
-  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-  <style>
-    :root {
-      --chat--color--primary: #25d466;
-      --chat--color--primary-shade-50: #1fbf5b;
-      --chat--color--primary--shade-100: #1aab51;
-      --chat--color--secondary: #25d466;
-      --chat--color-secondary-shade-50: #1fbf5b;
-      --chat--color-dark: #0F0F1A;
-      --chat--color-light: #f8fafc;
-      --chat--color-light-shade-50: #e6e9f1;
-      --chat--color-light-shade-100: #c2c5cc;
-      --chat--color-white: #ffffff;
-      --chat--window--width: 380px;
-      --chat--window--height: 560px;
-      --chat--border-radius: 0.75rem;
-      --chat--window--border-radius: 0.75rem;
-      --chat--window--border: 1px solid rgba(37, 212, 102, 0.15);
-      --chat--font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      --chat--header--background: #0F0F1A;
-      --chat--header--color: #ffffff;
-      --chat--message--bot--background: #f0fdf4;
-      --chat--message--bot--color: #0F0F1A;
-      --chat--message--user--background: #25d466;
-      --chat--message--user--color: #ffffff;
-      --chat--message--border-radius: 0.75rem;
-      --chat--toggle--background: #25d466;
-      --chat--toggle--hover--background: #1fbf5b;
-      --chat--toggle--active--background: #1aab51;
-      --chat--toggle--color: #ffffff;
-      --chat--input--background: #ffffff;
-      --chat--input--text-color: #0F0F1A;
-      --chat--input--border: 1px solid #e2e8f0;
-      --chat--input--border-active: 1px solid #25d466;
-      --chat--color-typing: #64748b;
-      --chat--body--background: #ffffff;
-      --chat--footer--background: #ffffff;
-      --chat--footer--color: #64748b;
-      --chat--button--background--primary: #25d466;
-      --chat--button--color--primary: #ffffff;
-      --chat--button--background--primary--hover: #1fbf5b;
-      --chat--button--color--primary--hover: #ffffff;
-      --chat--input--send--button--color: #25d466;
-      --chat--input--send--button--color-hover: #1fbf5b;
-    }
-  </style>
+  <!-- N8n Chat CSS Removed -->
 </head>
 
 <body class="bg-background-dark text-white font-display overflow-x-hidden selection:bg-primary selection:text-black">
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-  <script type="module">
-    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
-
-    createChat({
-      webhookUrl: 'https://n8n-sate20.deployaja.id/webhook/845ffd2e-f3af-4f49-bfc4-f15498e9ed74/chat',
-      mode: 'window',
-      showWelcomeScreen: false,
-      loadPreviousSession: false,
-      defaultLanguage: 'en',
-      initialMessages: [
-        'Halo! 👋',
-        'Ada yang bisa saya bantu?',
-      ],
-      i18n: {
-        en: {
-          title: 'Chat dengan Kami 💬',
-          subtitle: 'Kami siap membantu Anda 24/7.',
-          footer: '',
-          getStarted: 'Mulai Percakapan',
-          inputPlaceholder: 'Ketik pesan Anda...',
-        },
-      },
-    });
-  </script>
+  <!-- N8n Chat Removed -->
 </body>
 
 </html>
