@@ -10,8 +10,8 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center text-white shadow-lg shadow-primary/20">
-                        <span className="material-symbols-outlined text-[24px]">account_balance_wallet</span>
+                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center shadow-lg shadow-primary/20 overflow-hidden">
+                        <img src="/images/logo-putih.svg" alt="Sakumu" className="w-8 h-8 object-contain" />
                     </div>
                     <span className="text-xl font-bold tracking-tight text-foreground">sakumu</span>
                 </a>
