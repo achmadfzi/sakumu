@@ -7,8 +7,8 @@ export default function Footer() {
                 <div className="grid md:grid-cols-4 gap-12 mb-16">
                     <div className="md:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
-                            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center text-white">
-                                <span className="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-emerald-700 flex items-center justify-center shadow-lg shadow-primary/20 overflow-hidden">
+                                <img src="/images/logo-putih.svg" alt="Sakumu" className="w-8 h-8 object-contain" />
                             </div>
                             <span className="text-xl font-bold text-foreground">sakumu</span>
                         </div>

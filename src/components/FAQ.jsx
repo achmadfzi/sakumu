@@ -14,6 +14,18 @@ export default function FAQ() {
         {
             q: "Apakah tersedia di iPhone dan Android?",
             a: "Ya! Karena berbasis WhatsApp, sakumu bisa digunakan di smartphone apa saja (iOS & Android) yang terinstall WhatsApp."
+        },
+        {
+            q: "Bagaimana jika bot WhatsApp tidak merespon?",
+            a: "Jika bot WhatsApp tidak merespon, segera laporkan ke admin agar masalah dapat ditangani secepatnya. Tim kami akan segera memperbaiki kendala tersebut."
+        },
+        {
+            q: "Apakah saya bisa mencatat transaksi secara manual?",
+            a: "Bisa! Selain melalui bot WhatsApp, kamu juga dapat mencatat transaksi secara manual langsung di Google Sheet milikmu. Data yang kamu catat manual akan tetap terintegrasi dengan catatan lainnya."
+        },
+        {
+            q: "Mengapa link Google Sheet yang saya terima kosong?",
+            a: "Jika kamu meminta link Google Sheet melalui chatbot WhatsApp dan mendapat respon link kosong, cukup ulangi chat kamu kepada chatbot. Biasanya bot akan memberikan link yang benar pada percobaan berikutnya."
         }
     ];
 
