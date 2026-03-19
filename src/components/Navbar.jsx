@@ -38,7 +38,7 @@ export default function Navbar() {
 
                     <a href="#pricing"
                         className="hidden md:flex h-10 px-6 items-center justify-center rounded-full bg-primary text-background-dark text-sm font-bold hover:bg-primary/90 hover:shadow-[0_0_20px_rgba(37,212,102,0.3)] transition-all transform hover:-translate-y-0.5">
-                        Coba Gratis
+                        Beli Sekarang
                     </a>
 
                     {/* Mobile Menu Icon */}
@@ -83,7 +83,7 @@ export default function Navbar() {
                             className="h-12 flex items-center justify-center rounded-xl bg-primary text-background-dark font-bold hover:bg-primary/90 transition-all mt-2"
                             onClick={() => setIsOpen(false)}
                         >
-                            Coba Gratis
+                            Beli Sekarang
                         </a>
                     </div>
                 </div>
