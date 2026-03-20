@@ -52,12 +52,12 @@ export default function Pricing() {
                                     Akses Dashboard Google Sheet
                                 </li>
                             </ul>
-                            <button className="w-full py-5 rounded-2xl bg-primary text-background-dark font-black text-lg hover:bg-primary/90 transition-all duration-300 shadow-xl shadow-primary/30 relative group/btn">
+                            <a href="http://lynk.id/sakumu/lo5l17j253g8/checkout" target="_blank" rel="noopener noreferrer" className="block w-full py-5 rounded-2xl bg-primary text-background-dark font-black text-lg hover:bg-primary/90 transition-all duration-300 shadow-xl shadow-primary/30 relative group/btn text-center no-underline">
                                 <span className="relative z-10 flex items-center justify-center gap-2">
                                     Beli Sekarang
                                     <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
                                 </span>
-                            </button>
+                            </a>
                         </div>
                     </ScrollReveal>
                 </div>
