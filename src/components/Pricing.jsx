@@ -29,11 +29,32 @@ export default function Pricing() {
                             </div>
                             <div className="mb-8">
                                 <h3 className="text-sm font-bold tracking-[0.2em] text-primary mb-4 uppercase">LIFETIME ACCESS</h3>
-                                <div className="flex items-baseline gap-2">
+                                {/* Promo Badge */}
+                                <div className="inline-flex items-center gap-2 bg-red-500/15 border border-red-500/30 rounded-full px-4 py-1.5 mb-4" style={{ animation: 'pulse-promo 2s ease-in-out infinite' }}>
+                                    <span className="text-red-400 text-xs font-black tracking-wider uppercase">🔥 PROMO TERBATAS</span>
+                                </div>
+                                <div className="flex items-baseline gap-3">
                                     <span className="text-5xl font-bold text-foreground">Rp 99.000</span>
+                                    <span className="text-xl text-muted line-through opacity-60">Rp 199.000</span>
                                 </div>
                                 <p className="text-muted mt-2 text-sm italic">*Sekali bayar untuk selamanya</p>
+                                {/* Urgency Text */}
+                                <div className="mt-3 flex items-center gap-2 bg-yellow-500/10 border border-yellow-500/20 rounded-xl px-4 py-2.5">
+                                    <span className="text-lg" style={{ animation: 'fire-bounce 1s ease-in-out infinite' }}>🔥</span>
+                                    <span className="text-yellow-400 text-sm font-bold">Hanya untuk 50 pendaftar pertama!</span>
+                                </div>
                             </div>
+                            {/* Inline keyframes */}
+                            <style>{`
+                                @keyframes pulse-promo {
+                                    0%, 100% { opacity: 1; transform: scale(1); }
+                                    50% { opacity: 0.85; transform: scale(1.03); }
+                                }
+                                @keyframes fire-bounce {
+                                    0%, 100% { transform: translateY(0); }
+                                    50% { transform: translateY(-3px); }
+                                }
+                            `}</style>
                             <ul className="space-y-5 mb-10 flex-1">
                                 <li className="flex items-center gap-4 text-foreground/90 font-medium">
                                     <span className="material-symbols-outlined text-background-dark bg-primary p-1.5 rounded-full text-lg">star</span>
