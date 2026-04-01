@@ -17,11 +17,9 @@ export default function Footer() {
                             Asisten keuangan pribadi berbasis AI yang hidup di WhatsApp Anda. Catat, pantau, dan hemat lebih banyak.
                         </p>
                         <div className="flex gap-4">
-                            {['x', 'instagram', 'tiktok'].map((social) => (
-                                <a key={social} href="#" className="w-10 h-10 rounded-full bg-background-card flex items-center justify-center text-muted hover:bg-primary hover:text-white transition-all shadow-lg shadow-black/5">
-                                    <img src={`https://simpleicons.org/icons/${social}.svg`} alt={social} className="w-4 h-4 dark:invert opacity-70 hover:opacity-100" />
-                                </a>
-                            ))}
+                            <a href="https://www.instagram.com/sakumu.id/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-background-card flex items-center justify-center text-muted hover:bg-primary hover:text-white transition-all shadow-lg shadow-black/5">
+                                <img src="https://simpleicons.org/icons/instagram.svg" alt="Instagram" className="w-4 h-4 dark:invert opacity-70 hover:opacity-100" />
+                            </a>
                         </div>
                     </div>
 
