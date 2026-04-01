@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -27,28 +28,17 @@ export default function Footer() {
                     <div>
                         <h4 className="text-foreground font-bold mb-6">Produk</h4>
                         <ul className="space-y-4 text-sm text-muted">
-                            <li><a href="#" className="hover:text-primary transition-colors">Fitur</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Harga</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Testimoni</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">FAQ</a></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-foreground font-bold mb-6">Perusahaan</h4>
-                        <ul className="space-y-4 text-sm text-muted">
-                            <li><a href="#" className="hover:text-primary transition-colors">Tentang Kami</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Karir</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Kontak</a></li>
+                            <li><a href="/#features" className="hover:text-primary transition-colors">Fitur</a></li>
+                            <li><a href="/#pricing" className="hover:text-primary transition-colors">Harga</a></li>
+                            <li><a href="/#faq" className="hover:text-primary transition-colors">FAQ</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-foreground font-bold mb-6">Legal</h4>
                         <ul className="space-y-4 text-sm text-muted">
-                            <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
+                            <li><Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
+                            <li><Link to="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link></li>
                         </ul>
                     </div>
                 </div>
