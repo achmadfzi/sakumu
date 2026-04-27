@@ -5,7 +5,7 @@ import { createChat } from '@n8n/chat';
 export const N8nChat = () => {
     useEffect(() => {
         createChat({
-            webhookUrl: 'https://n8n-sate20.deployaja.id/webhook/845ffd2e-f3af-4f49-bfc4-f15498e9ed74/chat',
+            webhookUrl: 'https://n8n-vb8dzgfp0pbn.jkt5.sumopod.my.id/webhook/845ffd2e-f3af-4f49-bfc4-f15498e9ed74/chat',
             mode: 'window',
             showWelcomeScreen: false,
             loadPreviousSession: false,
